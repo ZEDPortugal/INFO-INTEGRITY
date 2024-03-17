@@ -177,6 +177,7 @@ html {
   left: 58%;
 }
 
+
 /* types */
 
 .types {
@@ -642,5 +643,12 @@ section {
     .trails {
         display: none;
     }
+
+    .home-img .main-image{
+        border-radius: 4px;
+        padding: 5px;
+        position: relative;
+        left: 0%;
+      }
 }
 
