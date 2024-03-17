@@ -69,7 +69,7 @@ html {
 
 .logo {
     font-size: 30px;
-    color: #E85A4F;
+    color: #70e84f;
     text-decoration: none;
     font-weight: 600;
 }
@@ -92,7 +92,7 @@ html {
 }
 
 .navbar a:hover {
-    color: #E98074;
+    color: #97e974;
 }
 
 /* home */
@@ -103,7 +103,7 @@ html {
     display: flex;
     align-items: center;
     padding: 0 10%;
-    background: #D8C3A5;
+    background: #ffffff;
     background-blend-mode: darken;
 }
 .home-content {
@@ -113,7 +113,7 @@ html {
 .home-content h1 {
     font-size: 56px;
     font-weight: 700;
-    color: #E85A4F;
+    color: #70e84f;
 }
 
 
@@ -174,13 +174,13 @@ html {
 
 .types {
     height: 470vh;
-    background: #fae3ae;
+    background: #f3dba3;
     background-blend-mode: darken;
     padding: 10% 10%;
 }
 
 .types-content h1{
-    color: #E85A4F;
+    color: #56b43c;
     font-size: 56px;
     font-weight: 700;
 }
@@ -201,7 +201,7 @@ html {
 .types-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #E98074;
+    color: #459239;
     padding-top: 10%;
 }
 
@@ -231,7 +231,7 @@ html {
 .learn {
     height: 350vh;
     width: 100%;
-    background: #d8caa5;
+    background: #def3b7;
     background-blend-mode: darken;
     padding: 10% 10%;
 }
@@ -242,7 +242,7 @@ html {
 
 
 .learn-content h1{
-    color: #E85A4F;
+    color: #56b43c;
     font-size: 56px;
     font-weight: 700;
 }
@@ -260,8 +260,8 @@ html {
 .learn-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #E98074;
-    padding-top: 30%;
+    color: #459239;
+    padding-top: 10%;
 }
 
 .learn-content p {
@@ -386,13 +386,13 @@ html {
 .awareness {
     height: 400vh;
     width: 100%;
-    background: #ffcfcf;
+    background: #dcffae;
     background-blend-mode: darken;
     padding: 10% 10%;
 }
 
 .awareness-content h1{
-    color: #E85A4F;
+    color: #56b43c;
     font-size: 56px;
     font-weight: 700;
 }
@@ -413,8 +413,8 @@ html {
 .awareness-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #E98074;
-    padding-top: 25%;
+    color: #459239;
+    padding-top: 10%;
 }
 
 .awareness-content li {
@@ -490,7 +490,7 @@ html {
 }
 
 .trails-content h1{
-    color: #E85A4F;
+    color: #56b43c;
     font-size: 56px;
     font-weight: 700;
     padding-bottom: 5%;
@@ -511,7 +511,7 @@ html {
 .trails-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #E98074;
+    color: #459239;
     padding-top: 10%;
 }
 
@@ -533,7 +533,7 @@ html {
 
 .trails a:hover{
     transition: 0.5s;
-    color: #2c2c2c;
+    color: #119621;
     font-size: 40px;
 }
 
