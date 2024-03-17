@@ -477,61 +477,65 @@ html {
   padding: 5px;
 }
 
-/* chatgpt */
+/* trails */
 
-.chatgpt {
+.trails {
     height: 100vh;
     width: 100%;
     background: #000000;
     background-blend-mode: darken;
-    padding: 10% 10%;
+    padding: 10% 7%;
+    display: flex;
+    align-items: center;
 }
 
-.chatgpt-content h1{
+.trails-content h1{
     color: #E85A4F;
     font-size: 56px;
     font-weight: 700;
     padding-bottom: 5%;
 }
 
-.chatgpt-content a {
-    font-size: 16px;
+.trails-content a {
+    font-size: 30px;
     color: #ffffff;
     text-decoration: none;
     font-weight: 500;
-    transition: .3s;
-    
+    transition: 0.3s;
 }
 
-.chatgpt-content {
+.trails-content {
     max-width: 600px;
 }
 
-.chatgpt-content h3 {
+.trails-content h3 {
     font-size: 32px;
     font-weight: 700;
     color: #E98074;
     padding-top: 10%;
 }
 
-.chatgpt-content p {
+.trails-content p {
     font-size: 16px;
     color: #ffffff;
     margin: 0% 5% 5% 0%;
 }
 
-.chatgpt-img .main-image{
+.trails-img .main-image{
     position: absolute;
-    left: 120%;
-    top: -220%;
+    left: 100%;
+    top: -50%;
     border: 5px solid #ffffffd2;
   border-radius: 4px;
   padding: 5px;
+  width: 100%;
 }
 
-
-
-
+.trails a:hover{
+    transition: 0.5s;
+    color: #2c2c2c;
+    font-size: 40px;
+}
 
 
 /* Responsive changes */
@@ -627,8 +631,8 @@ section {
         display: none;
     }
 
-    /* Hide chatgpt section */
-    .chatgpt {
+    /* Hide trails section */
+    .trails {
         display: none;
     }
 }
