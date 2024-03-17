@@ -602,110 +602,26 @@ section {
 
 }
 
-/* Adjust the positioning of images for smaller screens */
+/* Hide sections except home for mobile devices */
 @media screen and (max-width: 768px) {
-    .learn-img-1 .main-image,
-    .learn-img-2 .main-image,
-    .learn-img-3 .main-image,
-    .learn-img-4 .main-image,
-    .learn-img-5 .main-image,
-    .awareness-img-1 .main-image,
-    .awareness-img-2 .main-image,
-    .awareness-img-3 .main-image,
-    .awareness-img-4 .main-image,
-    .awareness-img-5 .main-image,
-    .chatgpt-img .main-image {
-        position: static; /* Set position to static for images */
-        margin-top: 20px; /* Add margin to separate images from text */
-        margin-left: auto; /* Center images horizontally */
-        margin-right: auto;
-        display: block; /* Make images display as block elements */
-    }
-
-    .learn-img-1 .warning{
-        left: 16%; 
-        top: 30%; 
-    }
-    .learn-img-2 .warning{
-        left: 8%; 
-        top: 30%; 
-    }
-    .learn-img-3 .warning{
-        left: 10%; 
-        top: 35%;
-    }
-    .learn-img-4 .warning{
-        left: 24%; 
-        top: 31%;
-    }
-
-    .learn-img-5 .warning{
-        left: 24%; 
-        top: 31%;
-    }
-
-    .learn-img-1 .be-aware{
-        left: 60%; 
-        top: 85%; 
-    }
-    .learn-img-2 .be-aware{
-        left: 60%; 
-        top: 85%; 
-    }
-    .learn-img-3 .be-aware{
-        left: 60%; 
-        top: 85%; 
-    }
-    .learn-img-4 .be-aware{
-        left: 50%; 
-        top: 85%; 
-    }
-    .learn-img-5 .be-aware{
-        left: 50%; 
-        top: 85%; 
-    }
-    
-
-    .home {
-        height: 100vh;
-        width: auto;
-        display: flex;
-        align-items: center;
-        padding: 0 10%;
-        background: #D8C3A5;
-        background-blend-mode: darken;
-    }
-
+    /* Hide types section */
     .types {
-        height: 290vh;
-        width: auto;
-        background: #fae3ae;
-        background-blend-mode: darken;
-        padding: 10% 10%;
+        display: none;
     }
 
+    /* Hide learn section */
     .learn {
-        height: 380vh;
-        width: auto;
-        background: #d8caa5;
-        background-blend-mode: darken;
-        padding: 10% 10%;
+        display: none;
     }
 
+    /* Hide awareness section */
     .awareness {
-        height: 500vh;
-        width: auto;
-        background: #ffcfcf;
-        background-blend-mode: darken;
-        padding: 10% 10%;
+        display: none;
     }
 
+    /* Hide chatgpt section */
     .chatgpt {
-        height: 130vh;
-        width: auto;
-        background: #000000;
-        background-blend-mode: darken;
-        padding: 10% 10%;
+        display: none;
     }
-    
 }
+
