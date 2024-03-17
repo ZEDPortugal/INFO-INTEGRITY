@@ -603,7 +603,7 @@ section {
 }
 
 /* Hide sections except home for mobile devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     /* Hide types section */
     .types {
         display: none;
