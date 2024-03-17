@@ -170,11 +170,18 @@ html {
     width: 100%;
 }
 
+.home-img .main-image{
+  border-radius: 4px;
+  padding: 5px;
+  position: relative;
+  left: 58%;
+}
+
 /* types */
 
 .types {
     height: 470vh;
-    background: #f3dba3;
+    background: #d4ffcc;
     background-blend-mode: darken;
     padding: 10% 10%;
 }
